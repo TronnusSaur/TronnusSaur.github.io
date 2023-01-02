@@ -1,0 +1,120 @@
+@media screen and (max-width: 1024px){
+    /* Todo Index */
+    /* Portada */
+    .ct-port_index{
+        height: 385px;
+    }
+    .ct-port_index img{
+        margin-top: -185px;
+    }
+    .ct-pres-info_index{
+        height: 340px;
+    }
+
+    /* Contenido en Index */
+    .ct-pres-txt_index{
+        font-size: 16px;
+        width: 50%;
+        text-align: center;
+        padding: 9% 78px;
+    }
+    .ct-pres-img_index{
+        height: 370px;
+    }
+
+    /* Todo Máquinas */
+    /* Portada en Maquinas */
+    .ct-port_mach{
+        height: 385px;
+    }
+    .ct-port_mach img{
+        margin-top: -185px;
+    }
+    .ct-port-txt_mach{
+        font-size: 52px;
+        margin-top: 11%;
+    }
+
+    /* Todo Productos */
+    /* Portada en Productos */
+    .ct-port_prod{
+        height: 385px;
+    }
+    .ct-port_prod img{
+        margin-top: -125px;
+    }
+    .ct-port-txt_prod{
+        font-size: 52px;
+        margin-top: 11%;
+    }
+    /*  Productos en sí */
+    .ct-prod-info_prod{
+        padding: 75px 0px;
+    }
+
+    /* Todo en Instructores */
+    /* Portada en Instructores */
+    .ct-port_inst{
+        height: 385px;
+    }
+    .ct-port_inst img{
+        margin-top: -200px;
+    }
+    .ct-port-txt_inst{
+        font-size: 52px;
+        margin-top: 11%;
+    }
+    .ct-info_inst{
+        height: 375px;
+    }
+    .ct-txt_inst{
+        padding: 110px 120px;
+        font-size: 16px;
+    }
+    .ct-img_inst img{
+        width: 80%;
+    }
+
+    /* Todo en más */
+    /* Portada en Más xd */
+    .ct-port_more{
+        height: 385px;
+    }
+    .ct-port_more img{
+        margin-top: -125px;
+    }
+    .ct-port-txt_more{
+        font-size: 48px;
+        margin-top: 11%;
+    }
+    .ct-port-txt_more i{
+        font-size: 64px;
+    }
+    /*Sección de Reglas */
+    .ct-rule_more{
+        height: 385px;
+    }
+    .ct-txt-rule_more ul li{
+        font-size: 15px;
+    }
+    .ct-txt-rule_more .bar{
+        padding: 25px;
+    }
+
+    /* Pie de Página */
+    .ct-foot-img_general img{
+        width: 135%;
+        margin-top: -64px;
+        margin-left: -90px;
+    }
+    .contact-img-inline i{
+        font-size: 36px;
+    }
+    .ct-foot_general{
+        font-size: 17px;
+        height: 420px;
+    }
+    .ct-foot-cont_general{
+        padding: 100px 150px;
+    }
+}

@@ -1,0 +1,158 @@
+@media screen and (max-width: 768px){
+    
+    /**/
+    /* Navegación */
+    .nav_bar{
+        margin: auto;
+        font-size: 15px;
+    }
+    .nav_bar a img{
+        width: 60px;
+    }
+
+    /* Todo Index */
+    /* Portada */
+    .ct-port_index{
+        height: 315px;
+    }
+    .ct-port_index img{
+        margin-top: -185px;
+    }
+    .ct-pres-info_index{
+        height: 255px;
+    }
+
+    /* Contenido en Index */
+    .ct-pres-txt_index{
+        font-size: 13px;
+        width: 50%;
+        text-align: center;
+        padding: 8% 35px;
+    }
+    .ct-pres-img_index{
+        height: 310px;
+    }
+    
+
+    /* Todo Máquinas */
+    /* Portada en Maquinas */
+    .ct-port_mach{
+        height: 315px;
+    }
+    .ct-port_mach img{
+        margin-top: -125px;
+    }
+    .ct-port-txt_mach{
+        font-size: 36px;
+        margin-top: 13%;
+    }
+
+
+    /* Todo Productos */
+    /* Portada en Productos */
+    .ct-port_prod{
+        height: 315px;
+    }
+    .ct-port_prod img{
+        margin-top: -85px;
+    }
+    .ct-port-txt_prod{
+        font-size: 36px;
+        margin-top: 13%;
+    }
+    /*  Productos en sí */
+    .ct-prod-info_prod{
+        padding: 25px 0px;
+        font-size: 18px;
+    }
+    .ct-ptr-txt_prod{
+        padding: 0 60px;
+    }
+    .ct-ptl-txt_prod{
+        padding: 0 60px;
+    }
+    /* Nutriólogo */
+    .ct-nutr-txt_prod p{
+        font-size: 17px; 
+    }
+    .ct-nutr-txt_prod a{
+        font-size: 14px;
+        color: #3b3b3b; 
+    }
+
+    /* Todo en Instructores */
+    /* Portada en Instructores */
+    .ct-port_inst{
+        height: 315px;
+    }
+    .ct-port_inst img{
+        margin-top: -200px;
+    }
+    .ct-port-txt_inst{
+        font-size: 36px;
+        margin-top: 13%;
+    }
+    .ct-info_inst{
+        height: 315px;
+    }
+    .ct-txt_inst{
+        padding: 90px 40px;
+        font-size: 16px;
+    }
+    .ct-img_inst img{
+        width: 100%;
+    }
+
+
+    /* Todo en más */
+    /* Portada en Más xd */
+    .ct-port_more{
+        height: 315px;
+    }
+    .ct-port_more img{
+        margin-top: -125px;
+    }
+    .ct-port-txt_more{
+        font-size: 36px;
+        margin-top: 11%;
+    }
+    .ct-port-txt_more i{
+        font-size: 42px;
+    }
+    .ct-port-txt_more i:hover{
+        font-size: 52px;
+    }
+
+    /*Sección de Reglas */
+    .ct-rule_more{
+        height: 315px;
+    }
+    .ct-txt-rule_more ul li{
+        font-size: 12px;
+        margin: 0 15px;
+    }
+    .ct-txt-rule_more .bar{
+        padding: 15px;
+    }
+    .ct-txt-rule_more .bar b{
+        font-size: 22px;
+    }
+    
+    
+    /* Pie de Página*/
+    .ct-foot-img_general img{
+        width: 155%;
+        margin-top: -59px;
+        margin-left: -140px;
+    }
+    .contact-img-inline i{
+        font-size: 28px;
+    }
+    .ct-foot_general{
+        font-size: 14px;
+        height: 340px;
+    }
+    .ct-foot-cont_general{
+        padding: 60px 140px;
+    }
+}

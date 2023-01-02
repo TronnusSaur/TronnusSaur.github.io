@@ -1,0 +1,237 @@
+@media screen and (max-width: 425px){
+    
+    /**/
+    /* Navegación */
+    .header{
+        position: sticky;
+        background-color: #000;
+    }
+    .nav_bar{
+        position: absolute;
+        font-size: 15px;
+        width: 50%;
+        margin: 0;
+        height: 700px;
+        align-items: center;
+        background-color: #5D5757;
+        transition: all 0.5s;
+        transform: translateX(-101%);
+    }
+    .nav_bar a img{
+        width: 90px;
+        margin-top: 50px;
+    }
+    .nav_bar ul{
+        transform: translateY(-90px);
+        gap: 45px;
+        margin: auto;
+        flex-direction: column;
+    }
+    .nav_bar.active{
+        transform: translateX(0);
+    }
+
+    /* Todo Index */
+    /* Portada */
+    .ct-port_index{
+        height: 275px;
+    }
+    .ct-port_index img{
+        margin-top: 0px;
+    }
+    .ct-pres-info_index{
+        height: 255px;
+    }
+    .ct-port-txt_index img{
+        width: 36%;
+        margin-top: -35px;
+    }
+    
+
+    /* Contenido en Index */
+    .ct-pres-txt_index{
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .ct-pres-img_index{
+        display: none;
+    }
+    
+
+    /* Todo Máquinas */
+    /* Portada en Maquinas */
+    .ct-port_mach{
+        height: 275px;
+    }
+    .ct-port_mach img{
+        margin-top: 0px;
+    }
+    .ct-port-txt_mach{
+        font-size: 28px;
+        margin-top: 24%;
+    }
+
+
+    /* Todo Productos */
+    /* Portada en Productos */
+    .ct-port_prod{
+        height: 275px;
+    }
+    .ct-port_prod img{
+        margin-top: 0px;
+    }
+    .ct-port-txt_prod{
+        font-size: 28px;
+        margin-top: 24%;
+    }
+
+    /*  Productos en sí */
+    .ct-prod-info_prod{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1;
+    }
+    .ct-prod-ptr_prod{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+    .ct-prod-ptl_prod{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+    .ct-ptr-txt_prod{
+        width: auto;
+    }
+    .ct-ptl-txt_prod{
+        width: auto;
+        padding: 0;
+        margin: auto;
+        margin-right: 50px;
+    }
+    .ct-ptr-img_prod img{
+        margin-left: 0px;
+    }
+    .ct-ptl-img_prod img{
+        margin-left: 0px;
+    }
+    .ct-prod-info_prod img{
+        position: absolute;
+        width: 110px;
+        transform: translateY(-15px);
+    }
+
+    /* Nutriólogo */
+    .ct-nutr-txt_prod p{
+        font-size: 12px; 
+    }
+    .ct-nutr-txt_prod a{
+        font-size: 10px;
+        color: #3b3b3b; 
+    }
+    .ct-nutr-img_prod{
+        display: none;
+    }
+    .ct-nutr-txt_prod{
+        width: 100%;
+    }
+    .ct-nutr_prod{
+        width: 90%;
+    }
+
+    /* Todo en Instructores */
+    /* Portada en Instructores */
+    .ct-port_inst{
+        height: 275px;
+    }
+    .ct-port_inst img{
+        margin-top: 0px;
+    }
+    .ct-port-txt_inst{
+        font-size: 28px;
+        margin-top: 24%;
+    }
+
+    /* Contenido Instructores */
+    .ct-info_inst{
+        height: 275px;
+    }
+    .ct-txt_inst{
+        width: 100%;
+        padding: 65px 35px;
+        font-size: 16px;
+    }
+    .ct-img_inst {
+        display: none;
+    }
+
+
+    /* Todo en más */
+    /* Portada en Más xd */
+    .ct-port_more{
+        height: 275px;
+    }
+    .ct-port_more img{
+        margin-top: 0px;
+    }
+    .ct-port-txt_more{
+        font-size: 28px;
+        margin-top: 13%;
+    }
+    .ct-port-txt_more i{
+        font-size: 34px;
+    }
+    .ct-port-txt_more i:hover{
+        font-size: 44px;
+    }
+
+    /*Sección de Reglas */
+    .ct-rule_more{
+        height: 315px;
+    }
+    .ct-txt-rule_more{
+        width: 100%;
+    }
+    .ct-txt-rule_more ul li{
+        font-size: 12px;
+        margin: 0 15px;
+    }
+    .ct-txt-rule_more .bar{
+        padding: 15px;
+    }
+    .ct-txt-rule_more .bar b{
+        font-size: 22px;
+    }
+    .ct-img-rule_more{
+        display: none;
+    }
+
+    
+    /** Pie de Página **/
+    .ct-foot-img_general img{
+        width: 160%;
+        margin-top: 35px;
+        margin-left: -70px;
+    }
+    .contact-img-inline i{
+        font-size: 28px;
+    }
+    .ct-foot_general{
+        font-size: 14px;
+        height: 290px;
+    }
+    .ct-foot-cont_general{
+        padding: 45px 5px;
+        padding-left: 55px;
+    }
+
+    /* Miscelaneos */
+    .menu_btn{
+        display: block;
+    }
+}
