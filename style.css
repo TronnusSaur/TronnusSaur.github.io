@@ -619,39 +619,3 @@ a:visited{
 /* --- */
 
 /* Para celulares (Sin terminar) */
-
-
-@media screen and (max-width: 375px){
-    .ct-foot-img_general img{
-        width: 160%;
-        margin-top: 38px;
-        margin-left: -70px;
-    }
-    .contact-img-inline i{
-        font-size: 24px;
-    }
-    .ct-foot_general{
-        font-size: 12px;
-        height: 260px;
-    }
-    .ct-foot-cont_general{
-        padding: 35px 32px;
-    }
-}
-@media screen and (max-width: 320px){
-    .ct-foot-img_general img{
-        width: 160%;
-        margin-top: 53px;
-        margin-left: -70px;
-    }
-    .contact-img-inline i{
-        font-size: 22px;
-    }
-    .ct-foot_general{
-        font-size: 10px;
-        height: 240px;
-    }
-    .ct-foot-cont_general{
-        padding: 35px 30px;
-    }
-}
